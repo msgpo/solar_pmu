@@ -1,0 +1,438 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "Solar PMU (Power Management Unit)"
+Date "2020-01-31"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L solar_pmu:C C?
+U 1 1 5E358199
+P 3250 6500
+F 0 "C?" H 3365 6546 50  0000 L CNN
+F 1 "C" H 3365 6455 50  0000 L CNN
+F 2 "" H 3288 6350 50  0001 C CNN
+F 3 "~" H 3250 6500 50  0001 C CNN
+	1    3250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:R R?
+U 1 1 5E3587C2
+P 3450 7300
+F 0 "R?" H 3520 7346 50  0000 L CNN
+F 1 "R" H 3520 7255 50  0000 L CNN
+F 2 "" V 3380 7300 50  0001 C CNN
+F 3 "~" H 3450 7300 50  0001 C CNN
+	1    3450 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:GND #PWR?
+U 1 1 5E359977
+P 5350 6900
+F 0 "#PWR?" H 5350 6650 50  0001 C CNN
+F 1 "GND" H 5355 6727 50  0000 C CNN
+F 2 "" H 5350 6900 50  0001 C CNN
+F 3 "" H 5350 6900 50  0001 C CNN
+	1    5350 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:+3V3 #PWR?
+U 1 1 5E359F4E
+P 5100 7300
+F 0 "#PWR?" H 5100 7150 50  0001 C CNN
+F 1 "+3V3" H 5115 7473 50  0000 C CNN
+F 2 "" H 5100 7300 50  0001 C CNN
+F 3 "" H 5100 7300 50  0001 C CNN
+	1    5100 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:-BATT #PWR?
+U 1 1 5E35A6E5
+P 4350 6950
+F 0 "#PWR?" H 4350 6800 50  0001 C CNN
+F 1 "-BATT" H 4365 7123 50  0000 C CNN
+F 2 "" H 4350 6950 50  0001 C CNN
+F 3 "" H 4350 6950 50  0001 C CNN
+	1    4350 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:+BATT #PWR?
+U 1 1 5E35AC15
+P 4200 6600
+F 0 "#PWR?" H 4200 6450 50  0001 C CNN
+F 1 "+BATT" H 4215 6773 50  0000 C CNN
+F 2 "" H 4200 6600 50  0001 C CNN
+F 3 "" H 4200 6600 50  0001 C CNN
+	1    4200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:MountingHole H?
+U 1 1 5E35D5D1
+P 850 6850
+F 0 "H?" H 950 6896 50  0000 L CNN
+F 1 "MountingHole" H 950 6805 50  0000 L CNN
+F 2 "" H 850 6850 50  0001 C CNN
+F 3 "~" H 850 6850 50  0001 C CNN
+	1    850  6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:Fiducial FID?
+U 1 1 5E35DCBD
+P 1850 6900
+F 0 "FID?" H 1935 6946 50  0000 L CNN
+F 1 "Fiducial" H 1935 6855 50  0000 L CNN
+F 2 "" H 1850 6900 50  0001 C CNN
+F 3 "~" H 1850 6900 50  0001 C CNN
+	1    1850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:D_Zener D?
+U 1 1 5E3605DF
+P 1900 4700
+F 0 "D?" V 1854 4779 50  0000 L CNN
+F 1 "SMAJ16A" V 1945 4779 50  0000 L CNN
+F 2 "" H 1900 4700 50  0001 C CNN
+F 3 "~" H 1900 4700 50  0001 C CNN
+	1    1900 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L solar_pmu:D_Zener D?
+U 1 1 5E362049
+P 1350 4500
+F 0 "D?" V 1304 4579 50  0000 L CNN
+F 1 "SMAJ16A" V 1395 4579 50  0000 L CNN
+F 2 "" H 1350 4500 50  0001 C CNN
+F 3 "~" H 1350 4500 50  0001 C CNN
+	1    1350 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L solar_pmu:D_Zener D?
+U 1 1 5E362D16
+P 1950 5100
+F 0 "D?" V 1904 5179 50  0000 L CNN
+F 1 "SMAJ24A" V 1995 5179 50  0000 L CNN
+F 2 "" H 1950 5100 50  0001 C CNN
+F 3 "~" H 1950 5100 50  0001 C CNN
+	1    1950 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L solar_pmu:Fiducial FID?
+U 1 1 5E3636F8
+P 1850 7100
+F 0 "FID?" H 1935 7146 50  0000 L CNN
+F 1 "Fiducial" H 1935 7055 50  0000 L CNN
+F 2 "" H 1850 7100 50  0001 C CNN
+F 3 "~" H 1850 7100 50  0001 C CNN
+	1    1850 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:Fiducial FID?
+U 1 1 5E363BF9
+P 1850 7300
+F 0 "FID?" H 1935 7346 50  0000 L CNN
+F 1 "Fiducial" H 1935 7255 50  0000 L CNN
+F 2 "" H 1850 7300 50  0001 C CNN
+F 3 "~" H 1850 7300 50  0001 C CNN
+	1    1850 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:MountingHole H?
+U 1 1 5E3645EB
+P 850 7050
+F 0 "H?" H 950 7096 50  0000 L CNN
+F 1 "MountingHole" H 950 7005 50  0000 L CNN
+F 2 "" H 850 7050 50  0001 C CNN
+F 3 "~" H 850 7050 50  0001 C CNN
+	1    850  7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:MountingHole H?
+U 1 1 5E364984
+P 850 7250
+F 0 "H?" H 950 7296 50  0000 L CNN
+F 1 "MountingHole" H 950 7205 50  0000 L CNN
+F 2 "" H 850 7250 50  0001 C CNN
+F 3 "~" H 850 7250 50  0001 C CNN
+	1    850  7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:MountingHole H?
+U 1 1 5E364E67
+P 850 7450
+F 0 "H?" H 950 7496 50  0000 L CNN
+F 1 "MountingHole" H 950 7405 50  0000 L CNN
+F 2 "" H 850 7450 50  0001 C CNN
+F 3 "~" H 850 7450 50  0001 C CNN
+	1    850  7450
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	600  6650 2500 6650
+Wire Notes Line
+	2500 6650 2500 7650
+Wire Notes Line
+	2500 7650 600  7650
+Wire Notes Line
+	600  6650 600  7650
+Text Notes 600  6650 0    50   ~ 0
+MECHANICAL\n
+$Comp
+L solar_pmu:SPMU_Output_Conn J?
+U 1 1 5E371E22
+P 10050 4250
+F 0 "J?" H 9700 4700 50  0000 L CNN
+F 1 "SPMU_Output_Conn" H 9700 3750 50  0000 L CNN
+F 2 "" H 9700 4800 50  0001 C CNN
+F 3 "" H 9700 4800 50  0001 C CNN
+	1    10050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:SPMU_PV_Conn J?
+U 1 1 5E37259B
+P 1150 1850
+F 0 "J?" H 1400 2100 50  0000 C CNN
+F 1 "SPMU_PV_Conn" H 1200 1600 50  0000 C CNN
+F 2 "" H 800 2200 50  0001 C CNN
+F 3 "" H 800 2200 50  0001 C CNN
+	1    1150 1850
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 3400 1600 1100 800 
+U 5E369E2F
+F0 "mppt" 50
+F1 "mppt.sch" 50
+F2 "MPPT_OUT" O R 4500 1800 50 
+F3 "PV_IN+" I L 3400 1800 50 
+F4 "AOUT_THERM" O R 4500 2000 50 
+F5 "STAT1" O R 4500 2150 50 
+F6 "STAT2" O R 4500 2250 50 
+$EndSheet
+Wire Wire Line
+	1700 1900 1850 1900
+Wire Wire Line
+	1850 1900 1850 2150
+$Comp
+L solar_pmu:GND #PWR?
+U 1 1 5E37E143
+P 1850 2150
+F 0 "#PWR?" H 1850 1900 50  0001 C CNN
+F 1 "GND" H 1855 1977 50  0000 C CNN
+F 2 "" H 1850 2150 50  0001 C CNN
+F 3 "" H 1850 2150 50  0001 C CNN
+	1    1850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:GND #PWR?
+U 1 1 5E37E477
+P 2350 2450
+F 0 "#PWR?" H 2350 2200 50  0001 C CNN
+F 1 "GND" H 2355 2277 50  0000 C CNN
+F 2 "" H 2350 2450 50  0001 C CNN
+F 3 "" H 2350 2450 50  0001 C CNN
+	1    2350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:D_Zener D?
+U 1 1 5E362608
+P 2350 2150
+F 0 "D?" V 2304 2229 50  0000 L CNN
+F 1 "SMAJ24A" V 2395 2229 50  0000 L CNN
+F 2 "" H 2350 2150 50  0001 C CNN
+F 3 "~" H 2350 2150 50  0001 C CNN
+	1    2350 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 1800 2350 1800
+Wire Wire Line
+	2350 2300 2350 2400
+Wire Wire Line
+	2350 1800 2350 2000
+Connection ~ 2350 1800
+$Comp
+L solar_pmu:SPMU_Battery_Conn J?
+U 1 1 5E36F369
+P 5850 2400
+F 0 "J?" H 6150 2650 50  0000 C CNN
+F 1 "SPMU_Battery_Conn" H 5850 2150 50  0000 C CNN
+F 2 "" H 5850 2550 50  0001 C CNN
+F 3 "" H 5850 2550 50  0001 C CNN
+	1    5850 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L solar_pmu:LED D?
+U 1 1 5E3AF4FF
+P 4000 4850
+F 0 "D?" H 3993 4595 50  0000 C CNN
+F 1 "LED" H 3993 4686 50  0000 C CNN
+F 2 "" H 4000 4850 50  0001 C CNN
+F 3 "~" H 4000 4850 50  0001 C CNN
+	1    4000 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L solar_pmu:LED D?
+U 1 1 5E3B0C4B
+P 4000 5300
+F 0 "D?" H 3993 5045 50  0000 C CNN
+F 1 "LED" H 3993 5136 50  0000 C CNN
+F 2 "" H 4000 5300 50  0001 C CNN
+F 3 "~" H 4000 5300 50  0001 C CNN
+	1    4000 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L solar_pmu:C C?
+U 1 1 5E3BFB16
+P 2900 2150
+F 0 "C?" H 3015 2196 50  0000 L CNN
+F 1 "C" H 3015 2105 50  0000 L CNN
+F 2 "" H 2938 2000 50  0001 C CNN
+F 3 "~" H 2900 2150 50  0001 C CNN
+	1    2900 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1800 2900 1800
+Wire Wire Line
+	2900 1800 2900 2000
+Connection ~ 2900 1800
+Wire Wire Line
+	2900 1800 3400 1800
+Wire Wire Line
+	2350 2400 2900 2400
+Wire Wire Line
+	2900 2300 2900 2400
+Connection ~ 2350 2400
+Wire Wire Line
+	2350 2400 2350 2450
+$Sheet
+S 5250 4750 1250 1800
+U 5E3C09FF
+F0 "STM32F0" 50
+F1 "stm32.sch" 50
+$EndSheet
+$Comp
+L solar_pmu:GND #PWR?
+U 1 1 5E3CD34B
+P 6500 2600
+F 0 "#PWR?" H 6500 2350 50  0001 C CNN
+F 1 "GND" H 6505 2427 50  0000 C CNN
+F 2 "" H 6500 2600 50  0001 C CNN
+F 3 "" H 6500 2600 50  0001 C CNN
+	1    6500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2450 6500 2450
+Wire Wire Line
+	6500 2450 6500 2600
+Wire Wire Line
+	6650 3450 6650 3350
+Wire Wire Line
+	6550 3250 6650 3250
+Wire Wire Line
+	6650 3450 6550 3450
+Wire Wire Line
+	6550 3350 6650 3350
+Connection ~ 6650 3350
+Wire Wire Line
+	6650 3350 6650 3250
+Wire Wire Line
+	6650 3250 6900 3250
+Connection ~ 6650 3250
+Wire Wire Line
+	6900 2350 6900 3250
+Wire Wire Line
+	6400 2350 6900 2350
+Connection ~ 6900 2350
+Wire Wire Line
+	6900 1800 4500 1800
+Wire Wire Line
+	6900 1800 6900 2350
+$Comp
+L solar_pmu:GND #PWR?
+U 1 1 5E3DC64F
+P 9350 4650
+F 0 "#PWR?" H 9350 4400 50  0001 C CNN
+F 1 "GND" H 9355 4477 50  0000 C CNN
+F 2 "" H 9350 4650 50  0001 C CNN
+F 3 "" H 9350 4650 50  0001 C CNN
+	1    9350 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 4550 9350 4550
+Wire Wire Line
+	9350 4550 9350 4650
+Wire Wire Line
+	9500 4450 8700 4450
+Wire Wire Line
+	8700 4450 8700 6000
+Wire Wire Line
+	7300 6000 8700 6000
+Wire Wire Line
+	9500 4350 8600 4350
+Wire Wire Line
+	8600 4350 8600 5900
+Wire Wire Line
+	7300 5900 8600 5900
+Text Label 7450 5900 0    50   ~ 0
+RS232_TX
+Text Label 7450 6000 0    50   ~ 0
+RS232_RX
+Text Label 8650 4100 0    50   ~ 0
+GND
+Text Notes 9500 5000 0    50   ~ 0
+Layout note:\nSeparate return paths for power/data.
+Wire Wire Line
+	6500 2450 7600 2450
+Wire Wire Line
+	7600 2450 7600 4100
+Wire Wire Line
+	7600 4100 9500 4100
+Connection ~ 6500 2450
+Wire Wire Line
+	6800 4000 9500 4000
+Text Label 8650 4000 0    50   ~ 0
+VBAT_PROT
+Text Label 6450 2350 0    50   ~ 0
+VBAT
+Text Label 4650 1800 0    50   ~ 0
+VBAT
+Text Label 6700 3250 0    50   ~ 0
+VBAT
+$EndSCHEMATC

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "BQ24650RVAR")(type "Legacy")(uri "${KIPRJMOD}/lib/BQ24650RVAR.lib")(options "")(descr ""))
+  (lib (name "solar_pmu")(type "Legacy")(uri "${KIPRJMOD}/solar_pmu.lib")(options "")(descr ""))
+  (lib (name "dk_Interface-Drivers-Receivers-Transceivers")(type "Legacy")(uri "C:/Users/LINAVAL/gDrive/dev/digikey-kicad-library/digikey-symbols/dk_Interface-Drivers-Receivers-Transceivers.lib")(options "")(descr ""))
+)
